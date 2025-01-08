@@ -76,7 +76,7 @@ def main():
              use_container_width=True)  # Replace with the actual image path
 
 # Add a copyright line at the bottom of the page
-st.markdown(
+    st.markdown(
     "<div style='text-align: center; margin-top: 50px; font-size: 12px; color: gray;'>"
     "© The National Center for Disaster Preparedness (NCDP) Columbia Climate School, at Columbia University. All rights reserved."
     "</div>",
