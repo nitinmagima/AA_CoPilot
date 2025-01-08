@@ -58,6 +58,13 @@ def main():
     - Clearly define tasks for government agencies, NGOs, and other partners.
     """)
 
+# Add a copyright line at the bottom of the page
+st.markdown(
+    "<div style='text-align: center; margin-top: 50px; font-size: 12px; color: gray;'>"
+    "© The National Center for Disaster Preparedness (NCDP) Columbia Climate School, at Columbia University. All rights reserved."
+    "</div>",
+    unsafe_allow_html=True
+)
 
 if __name__ == "__main__":
     main()

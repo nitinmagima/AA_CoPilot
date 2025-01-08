@@ -38,6 +38,13 @@ def main():
     - **AAP (Anticipatory Action Plans)**: Developed AAPs are standard protocols that link hazard thresholds and forecast triggers with anticipatory actions, timelines, location(s), costs, and entities responsible for such actions to ensure that planned activities are successfully implemented in the window of time available between the given ‘forecast alert’ and ‘the event.’
     """)
 
+# Add a copyright line at the bottom of the page
+st.markdown(
+    "<div style='text-align: center; margin-top: 50px; font-size: 12px; color: gray;'>"
+    "© The National Center for Disaster Preparedness (NCDP) Columbia Climate School, at Columbia University. All rights reserved."
+    "</div>",
+    unsafe_allow_html=True
+)
 
 if __name__ == "__main__":
     main()
