@@ -23,7 +23,7 @@ The **Anticipatory Action AI Chatbot** is a Streamlit-based application designed
 ### 2. Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/anticipatory-action-chatbot.git
+   git clone git@github.com:nitinmagima/AA_CoPilot.git
    cd anticipatory-action-chatbot
    ```
 2. Install the required dependencies:
