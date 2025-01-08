@@ -44,6 +44,8 @@ def main():
     - Use the sidebar's radio buttons to select a specific section of the Anticipatory Action framework to focus on. 
     - To understand each step of the AA framework, explore the pages on the left sidebar.
     
+    This chatbot uses GPT-4o Mini.
+    
     For further inquiries or support, please Nitin Magima at nitin.magima@columbia.edu.
     
     """)
