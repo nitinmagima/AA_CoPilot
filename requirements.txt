@@ -1,4 +1,4 @@
-python==3.11
-openai==1.52.1
-streamlit==1.40.1
-pypdf2==3.0.1
+python
+openai
+streamlit
+pypdf2
