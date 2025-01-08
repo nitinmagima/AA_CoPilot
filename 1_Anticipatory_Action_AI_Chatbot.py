@@ -133,11 +133,3 @@ st.markdown(
     "</div>",
     unsafe_allow_html=True
 )
-
-# Add name
-st.markdown(
-    "<div style='text-align: center; font-size: 12px; color: gray;'>"
-    "Nitin Magima"
-    "</div>",
-    unsafe_allow_html=True
-)
