@@ -68,7 +68,7 @@ for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
 
 # File upload for relevant documents
-uploaded_file = st.file_uploader("Upload a relevant document (e.g., strategies, guidelines)", type=["pdf"])
+uploaded_file = st.file_uploader("If needed, upload an additional PDF document (e.g., guidelines) to provide context for the chatbot. Ensure the file size does not exceed 200 MB and that the content is primarily text-based for accurate processing.", type=["pdf"])
 
 document_text = ""
 if uploaded_file:
@@ -112,7 +112,7 @@ if prompt := st.chat_input():
 
     # Call OpenAI API
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": general_prompt},
             {"role": "assistant", "content": f"Selected Section:\n{context_option} for Drought\n\nDocument Content:\n{document_text}"},
